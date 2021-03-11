@@ -72,7 +72,10 @@ var images = [
     "71.jpg",
     "72.jpg",
     "73.jpg",
-    "74.jpg"
+    "74.jpg",
+    "75.jpg",
+    "76.jpg",
+    "77.jpg"
 ];
 var $top   = $('#dvImage');
 // $(function () {
