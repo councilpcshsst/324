@@ -8,8 +8,14 @@
     background: rgba(14, 2, 66, 0.85);
     /* background: rgb(15,12,41, 0.6); */
     /* background: linear-gradient(90deg, rgba(15,12,41,0.7) 0%, rgba(48,43,99,0.7) 50%, rgba(36,36,62,0.7) 100%); */
-    color: rgb(255, 255, 255);
     padding:2em;
+    text-shadow: 2px 2px 5px rgb(103, 96, 134);
+}
+h1{
+  color: rgb(255, 255, 255);
+}
+h3{
+  color: rgb(255, 255, 255);
 }
 body, html {
   height: 100%;
