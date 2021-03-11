@@ -5,6 +5,10 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);background: rgb(15,12,41, 0.6);
+    background: linear-gradient(90deg, rgba(15,12,41,0.7) 0%, rgba(48,43,99,0.7) 50%, rgba(36,36,62,0.7) 100%);
+    color: #fff;;
+    padding:2em;
 }
 body, html {
   height: 100%;

@@ -118,14 +118,7 @@ var images = [
     "117.jpg",
     "118.jpg",
     "119.jpg",
-    "120.jpg",
-    "121.jpg",
-    "122.jpg",
-    "123.jpg",
-    "124.jpg",
-    "125.jpg",
-    "126.jpg",
-    "127.jpg"
+    "120.jpg"
 ];
 var $top   = $('#dvImage');
 // $(function () {
