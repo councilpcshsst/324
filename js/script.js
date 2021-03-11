@@ -87,7 +87,7 @@ var $top   = $('#dvImage');
 //         });
 //     }, 3000);
 // });
-$top.css('background-image', 'url(images/'+images[getRandomInt(images.length)]+')');
+$top.css('background-image', 'url(images/'+"77.jpg"+')');
 setInterval(function() {
     $top.animate({ opacity: 0 }, 500, function() {
       $top.css('background-image', 'url(images/'+images[getRandomInt(images.length)]+')');
