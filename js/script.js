@@ -93,7 +93,7 @@ setInterval(function() {
       $top.css('background-image', 'url(images/'+images[getRandomInt(images.length)]+')');
       $top.animate({ opacity: 1 }, 500, function() {});
     });
-}, 6000);
+}, 3000);
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
