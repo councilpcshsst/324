@@ -127,15 +127,23 @@ var images = [
     "126.jpg",
     "127.jpg"
 ];
-$(function () {
-    $("#dvImage").css("background-image", "url(images/" + images[getRandomInt(images.length)] + ")");
-    setInterval(function () {
-        $("#dvImage").fadeOut("slow", function () {
-            $(this).css("background-image", "url(images/" + images[getRandomInt(images.length)] + ")");
-            $(this).fadeIn("slow");
-        });
-    }, 3000);
-});
+var $top   = $('#dvImage');
+// $(function () {
+//     $("#dvImage").css("background-image", "url(images/" + images[getRandomInt(images.length)] + ")");
+//     setInterval(function () {
+//         $("#dvImage").fadeOut("slow", function () {
+//             $(this).css("background-image", "url(images/" + images[getRandomInt(images.length)] + ")");
+//             $(this).fadeIn("slow");
+//         });
+//     }, 3000);
+// });
+$top.css('background-image', 'url(images/'+images[getRandomInt(images.length)]+')');
+setInterval(function() {
+    $top.animate({ opacity: 0 }, 500, function() {
+      $top.css('background-image', 'url(images/'+images[getRandomInt(images.length)]+')');
+      $top.animate({ opacity: 1 }, 500, function() {});
+    });
+}, 6000);
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
-  }
+}
